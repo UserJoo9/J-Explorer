@@ -10,7 +10,7 @@ from distutils.dir_util import copy_tree
 import threading
 
 
-class WinFinder:
+class JExplorer:
 
     widthIconsLength = 7
     lastWidthIconsLength = 0
@@ -402,5 +402,5 @@ class WinFinder:
 
 
 if __name__ == "__main__":
-    wf = WinFinder()
+    wf = JExplorer()
     wf.gui()
